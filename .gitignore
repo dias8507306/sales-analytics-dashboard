@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+amo-token.txt
+
+# deps / build / platform
+node_modules/
+.vercel/
+dist/
+
+# data
+*.db
+*.sqlite
+*.log
+
+# python (none, but keep the repo clean)
+__pycache__/
+.venv/
+
+# misc
+.idea/
+.vscode/
+.DS_Store

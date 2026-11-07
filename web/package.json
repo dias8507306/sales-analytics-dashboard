@@ -1,0 +1,14 @@
+{
+  "name": "sales-analytics-dashboard",
+  "private": true,
+  "description": "Дашборд шаблонов WhatsApp 1100: статическая страница и функции в api/",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.137.0"
+  }
+}
